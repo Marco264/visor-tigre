@@ -145,11 +145,15 @@
         });
 
         map.pm.addControls({
-        position: 'topleft',
-        oneBlock: true,
-        editMode:false,
-        cutpolygon: false,
-        rotateMode: false,
+	    position: 'topleft',
+	    oneBlock: true,
+	    drawPolygon: true,
+	    drawMarker: true,
+	    drawPolyline: true,
+	    drawCircleMarker: false,
+	    editMode: false,
+	    cutPolygon: false,
+	    rotateMode: false,
         });
         map.pm.setLang("es");
         map.pm.setPathOptions({
